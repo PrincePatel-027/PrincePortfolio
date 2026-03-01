@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Patel | Portfolio </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+</head>
+
+<body class="loading scanlines">
+
+  <!-- ===== PRELOADER ===== -->
+  <div class="pixel-preloader" id="preloader">
+    <div class="loading-text">LOADING PORTFOLIO... <span id="loadingProgress">0%</span></div>
+    <div class="loading-bar-container">
+      <div class="loading-bar" id="loadingBar"></div>
+    </div>
+  </div>
+
+  <div class="mosaic-container">
+
+    <!-- HEADER -->
+    <header class="tile header-tile blocky-border">
+      <div class="header__logo">PRINCE<span class="blink">_</span></div>
+      <nav class="header__nav">
+        <a href="#about">[ABOUT]</a>
+        <a href="#skills">[SKILLS]</a>
+        <a href="#work">[WORK]</a>
+        <a href="#contact">[CONTACT]</a>
+      </nav>
+      <div class="header__time" id="currentTime">00:00:00</div>
+    </header>
+
+    <!-- HERO -->
+    <section class="tile hero-tile blocky-border" id="hero">
+      <div class="crt-overlay"></div>
+      <div class="hero-content">
+        <p class="sys-msg">> SYS.INIT... OK</p>
+        <p class="sys-msg">> LOAD MODULE: DEVELOPER</p>
+        <h1 class="hero-name">PRINCE PATEL</h1>
+        <h2 class="hero-title">CREATIVE DEVELOPER PXL_01</h2>
+        <p class="hero-desc">I craft bold digital experiences at the intersection of design & engineering.</p>
+        <div class="hero-actions">
+          <a href="#work" class="pixel-btn primary">START GAME</a>
+          <a href="#contact" class="pixel-btn secondary">CO-OP MODE</a>
+        </div>
+      </div>
+      <div class="hero-image-placeholder">
+        <img src="image.jpeg" alt="Prince Patel" class="profile-pic">
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="tile about-tile blocky-border" id="about">
+      <div class="tile-header">STATUS: ABOUT</div>
+      <h2 class="pixel-heading">I build things for the web that people actually remember.</h2>
+      <p class="pixel-text">With a passion for sharp design and solid engineering, I create digital experiences that
+        strike the perfect balance of form and function. I believe code should be as elegant as the interfaces it
+        produces.</p>
+      <p class="pixel-text">Currently pursuing my degree while shipping real-world projects that push creative
+        boundaries. Always learning, always building.</p>
+      <div class="about-stats">
+        <div class="stat-box"><span class="stat-num" data-val="15">0</span><br>PROJECTS built</div>
+        <div class="stat-box"><span class="stat-num" data-val="4">0</span><br>SEMESTERS deep</div>
+        <div class="stat-box"><span class="stat-num" data-val="8">0</span><br>TECHNOLOGIES</div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="tile skills-tile blocky-border" id="skills">
+      <div class="tile-header">INVENTORY: SKILLS</div>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-name">FRONTEND</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">BACKEND</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">FRAMEWORKS</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">DATABASE</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">DESIGN</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK 1 -->
+    <a href="https://noesis-1kyo.onrender.com/" target="_blank" class="tile work-tile work-1 blocky-border" id="work">
+      <div class="work-img">
+        <iframe src="https://noesis-1kyo.onrender.com/" loading="lazy" tabindex="-1"></iframe>
+      </div>
+      <div class="work-info">
+        <h3>LVL 01: NOESIS</h3>
+        <p>Prompt-to-code platform with RAG-powered context-aware challenges.</p>
+        <div class="tags"><span>RAG</span><span>OLLAMA</span><span>LLM</span></div>
+      </div>
+    </a>
+
+    <!-- WORK 2 -->
+    <a href="https://multiagentic-debbuger.onrender.com/" target="_blank" class="tile work-tile work-2 blocky-border">
+      <div class="work-img">
+        <iframe src="https://multiagentic-debbuger.onrender.com/" loading="lazy" tabindex="-1"></iframe>
+      </div>
+      <div class="work-info">
+        <h3>LVL 02: M.A.D</h3>
+        <p>Multi-Agentic Debugger identifying and fixing code bugs.</p>
+        <div class="tags"><span>MULTI-AGENT</span><span>GEMINI</span></div>
+      </div>
+    </a>
+
+    <!-- WORK 3 -->
+    <a href="https://elevatedpixels.app/" target="_blank" class="tile work-tile work-3 blocky-border">
+      <div class="work-img">
+        <iframe src="https://elevatedpixels.app/" loading="lazy" tabindex="-1"></iframe>
+      </div>
+      <div class="work-info">
+        <h3>LVL 03: ELEVATED PIXELS</h3>
+        <p>Digital HQ with interactive terminal mechanics.</p>
+        <div class="tags"><span>UI/UX</span><span>CANVAS</span></div>
+      </div>
+    </a>
+
+    <!-- WORK 4 -->
+    <a href="https://krishisahaytam.vercel.app/" target="_blank" class="tile work-tile work-4 blocky-border">
+      <div class="work-img">
+        <iframe src="https://krishisahaytam.vercel.app/" loading="lazy" tabindex="-1"></iframe>
+      </div>
+      <div class="work-info">
+        <h3>LVL 04: KRISHISAHAY</h3>
+        <p>CV pipeline for plant disease detection via leaf scanning.</p>
+        <div class="tags"><span>CV</span><span>ML</span></div>
+      </div>
+    </a>
+
+    <!-- CONTACT / GAME -->
+    <section class="tile contact-tile blocky-border" id="contact">
+      <div class="tile-header">COMMS_LINK</div>
+
+      <div class="contact-grid">
+
+        <!-- COMM FORM -->
+        <div id="commFormContainer" class="form-wrapper">
+          <h2>LET'S MAKE IT REAL.</h2>
+          <form id="contactForm" class="pixel-form">
+            <input type="hidden" name="access_key" value="00cedc5d-06be-483d-904c-e0891c4dbf52">
+            <input type="text" name="name" placeholder="PLAYER NAME" required>
+            <input type="email" name="email" placeholder="PLAYER EMAIL" required>
+            <textarea id="contactMessage" name="message" placeholder="MESSAGE..." rows="4" required></textarea>
+            <button type="submit" class="pixel-btn primary full-width">SEND TRANSMISSION</button>
+          </form>
+        </div>
+
+        <!-- OPTIONAL GAME -->
+        <div class="game-wrapper">
+          <div id="gameContainer" class="game-container">
+            <h2 class="game-title">MINI ARCADE</h2>
+            <p class="game-instructions">DEFEND THE UPLINK!</p>
+            <p class="game-controls">[ARROWS] Move [AUTO] Fire</p>
+
+            <div class="game-hud">
+              <span id="scoreDisplay">SCORE: 0</span>
+            </div>
+
+            <canvas id="contactGame" width="300" height="300"></canvas>
+
+            <!-- START & LEADERBOARD UI -->
+            <div id="gameOverlay" class="game-overlay">
+              <div class="overlay-content">
+                <button id="startGameBtn" class="pixel-btn secondary">PLAY COMMS_DEFENDER</button>
+                <div id="leaderboardDisplay" class="leaderboard hidden">
+                  <h3>TOP SCORES</h3>
+                  <ul id="leaderboardList"></ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- GAME OVER UI -->
+            <div id="gameOverOverlay" class="game-overlay hidden">
+              <div class="overlay-content">
+                <h3 class="game-over-title">SYSTEM FAILURE</h3>
+                <p id="finalScoreText">SCORE: 0</p>
+                <div id="highScoreInput" class="hidden">
+                  <p class="blink">NEW HIGH SCORE!</p>
+                  <input type="text" id="playerNameInput" placeholder="ENTER INITIALS" maxlength="3" class="pixel-input"
+                    autocomplete="off">
+                  <button id="saveScoreBtn" class="pixel-btn primary">SAVE</button>
+                </div>
+                <button id="restartGameBtn" class="pixel-btn secondary hidden">RETRY</button>
+              </div>
+            </div>
+
+            <p id="gameSuccessMsg" class="game-success hidden">BONUS UNLOCKED!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="tile footer-tile blocky-border">
+      <div class="footer-grid">
+        <div>
+          <p><strong>PRINCE PATEL</strong></p>
+          <p>Vadodara, India</p>
+          <p><a href="mailto:princepatelgg27@gmail.com">princepatelgg27@gmail.com</a></p>
+          <p><a href="tel:+919510670484">+91 9510670484</a></p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/PrincePatel-27/" target="_blank">GITHUB</a>
+          <a href="https://www.linkedin.com/in/princepatel2706" target="_blank">LINKEDIN</a>
+          <a href="https://x.com/Prince27patel_" target="_blank">TWITTER/X</a>
+          <a href="https://instagram.com/princepatel.27" target="_blank">INSTAGRAM</a>
+        </div>
+        <div>
+          <p>&copy; 2026 GAME OVER.</p>
+          <a href="#hero" class="back-top">^ UP ^</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
